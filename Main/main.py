@@ -165,7 +165,7 @@ with detection_graph.as_default():
             cursor_pos = win32gui.GetCursorPos()
             #flags, hcursor, screen_mid = win32gui.GetCursorInfo()
             theta_D = findDxDy(points)
-            file.write("The mouse location is "  + str("fuck you") + "\n")
+            file.write("The mouse location is "  + "\n")
             file.write("The calculated mid point is " + str(points) + "\n")
             file.write("The dx and dy is " + str(theta_D) + "\n")
             sendMouse(theta_D[0], theta_D[1], 'mouse_move')
