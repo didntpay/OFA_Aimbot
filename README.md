@@ -2,7 +2,7 @@
 Aim bot that doesn't require finding the game's memory address nor anything internal.
 
 # Abstract
-dfasdfhis project is for study purpose only, not for commercial uses. 
+This project is for study purpose only, not for commercial uses. 
 In order for the scripts in main folder to work, you must download python(3.6 is the version I am using) as well as modules listed below
   * Tensorflow(GPU recommended)
     * Additional packages are required. Please checkout https://www.tensorflow.org/install/gpu for more
